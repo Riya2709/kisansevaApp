@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/orange">
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KisanSeva"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/img3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@+id/img3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+
+        />
+
+    <TextView
+        android:id="@+id/txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="Skip"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/txt11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toEndOf="@+id/txt11"
+        app:layout_constraintTop_toTopOf="@+id/txt11" />
+
+    <TextView
+        android:id="@+id/txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crop"
+        android:textSize="42sp"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/img3"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+
+        />
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decision"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="56sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txt13"
+        app:layout_constraintTop_toBottomOf="@id/txt13"
+        />
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:text="You will get a well organized database."
+        android:textSize="16sp"
+
+        app:layout_constraintHorizontal_bias="0"
+
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent=".5"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txt14"
+        app:layout_constraintTop_toBottomOf="@id/txt14"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/next"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_modal"
+            android:icon="@drawable/modal_icon"
+            android:title="Modal Price" />
+
+        <item
+            android:id="@+id/nav_Schemes"
+            android:icon="@drawable/schemes_icon"
+            android:title="Schemes" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+
+
+    </group>
+
+
+        <item android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="profile" />
+                </group>
+
+            </menu>
+        </item>
+
+
+
+    <item
+        android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate us"
+                android:icon="@drawable/ic_baseline_home_24"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>
